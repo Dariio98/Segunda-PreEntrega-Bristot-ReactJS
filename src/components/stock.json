@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "nombre":"Pileta",
+        "precio":"$20000",
+        "categoria": "baño",
+        "img": "Pileta"
+
+    },
+    {
+        "id": 2,
+        "nombre": "Pileta",
+        "precio":"$20000",
+        "categoria": "baño",
+        "img": "Pileta"
+
+    },
+    {
+        "id": 3,
+        "nombre": "Pileta",
+        "precio":"$20000",
+        "categoria": "baño",
+        "img": ""
+
+    },
+    {   
+        "id":4,
+        "nombre": "Bajo mesada",
+        "precio":"$49000",
+        "categoria": "baño",
+        "img":"" 
+
+    },
+    {   
+        "id":5,
+        "nombre": "Bajo mesada",
+        "precio":"$49000",
+        "categoria": "baño",
+        "img":""
+
+    },
+    {   
+        "id":6,
+        "nombre": "Bajo mesada",
+        "precio":"$49000",
+        "categoria": "baño",
+        "img": ""
+
+    },
+    {
+        "id":7,
+        "nombre":"Cama",
+        "precio":"",
+        "categoria": "baño",
+        "img": "cama"
+    },
+    {
+        "id":8,
+        "nombre": "Cama",
+        "precio":"",
+        "categoria": "baño",
+        "img": "cama,"
+    },
+    {
+        "id":9,
+        "nombre": "Cama",
+        "precio":"",
+        "categoria": "baño",
+        "img": ""
+    }
+]
