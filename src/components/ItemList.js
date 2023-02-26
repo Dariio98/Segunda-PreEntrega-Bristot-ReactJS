@@ -24,8 +24,11 @@ export const ItemList = () => {
                 products.map((product) =>
                 (<div key= {product.id} className="cardProducts">
                     <img className="cardProducts-img" src={product.image} alt={product.title} />
-                    <h2 className="cardProducts-text">{product.title}</h2>
-                    <p>${product.price}</p>
+                <div className="cardProducts-text">
+                    <h2 className="cardProducts-title">{product.title}</h2>
+                    <p className="cardProducts-price">${product.price}</p>
+                    <button className="cardProducts-buttom">Detalles</button>
+                </div>
                 </div>               
                 ))
             }

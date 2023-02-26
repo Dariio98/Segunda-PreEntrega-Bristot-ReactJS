@@ -4,18 +4,31 @@
 
 .containProducts {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 3rem;
 
 }
 
 .cardProducts {
-    background-color: #fb2;
-    border: 3px solid black;
+    background-color: rgb(226, 183, 84);
+    border: 1px solid black;
     width: 20rem;
+    box-shadow: 4px 4px 7px ;
+    border-top-right-radius: 4rem;
 }
 
 .cardProducts .cardProducts-img {
     width: 20rem;
-    height: 15rem;
+    height: 14rem;
+    border-top-right-radius: 4rem;
+}
+
+.cardProducts .cardProducts-text {
+    text-align: center;
+    
+}
+
+.cardProducts .cardProducts-buttom {
+    margin-bottom: 1rem;
 }
