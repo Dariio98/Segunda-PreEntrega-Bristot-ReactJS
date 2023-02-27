@@ -1,5 +1,6 @@
 import React, { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export const ItemList = () => {
@@ -27,7 +28,9 @@ export const ItemList = () => {
                 <div className="cardProducts-text">
                     <h2 className="cardProducts-title">{product.title}</h2>
                     <p className="cardProducts-price">${product.price}</p>
+                    <Link to={`/product/${product.id}`}>
                     <button className="cardProducts-buttom">Detalles</button>
+                    </Link>
                 </div>
                 </div>               
                 ))

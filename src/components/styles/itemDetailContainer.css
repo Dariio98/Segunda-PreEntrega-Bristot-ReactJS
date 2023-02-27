@@ -1,0 +1,7 @@
+.datailProducts {
+    display: flex;
+}
+
+.detailProducts .detailProducts-text {
+    background-color: red;
+}
